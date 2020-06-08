@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+
+    <meta charset='UTF-8'>
+    <title>CSS Grid</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'lato', sans-serif;
+            background-color: white;
+        }
+        p,
+        li {
+            font-family: 'PT Serif', serif;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+        .container h1 {
+            color: red;
+        }
+        .container li {
+            color: black;
+        }
+        .Headsimp {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 20px;
+        }
+        .simptext {
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="simphead">
+            <h1>
+                How not to be a Simp!
+            </h1>
+        
+            <lu>
+                <li>Stop idoilzing women!</li>
+                <li>Stop being the night in shining armor!</li>
+                <li>Don't put your self in a submissive postion</li>
+                <li>Stop lissening to K Pop</li>
+                <li>And fianly stop being a simp because that Shit no good!</li>
+            </lu>
+        </div>
+        
+    </div>
+    <div class="Headsimp">
+        <div class="simptext">
+            I'm looking at you Simp.
+        </div>
+
+        <div class="simppic">
+            <img src="download.jpg" alt="">
+        </div>
+        
+    </div>
+</body>
